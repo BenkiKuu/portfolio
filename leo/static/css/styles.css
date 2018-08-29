@@ -1,0 +1,134 @@
+/* #home {
+  margin-right: 0px;
+  background-color: #6D7993;
+  background-image: url(); */
+
+  .navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+  }
+
+img {
+  max-width: 600px;
+  max-height: 600px;
+  float: right;
+  /* margin-right: 0px; */
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+#home {
+    background-image: url('../img/ld.jpg');
+    min-height: 100%;
+      filter: brightness(50%);
+    /* opacity: 0.5; */
+}
+#s {font-family: "Lato", sans-serif;
+  color: #777;
+}
+#about, #informa {
+  margin-bottom: 50px;
+}
+#workd {
+  margin-top: 50px;
+}
+
+
+
+#mypic {
+  filter: brightness(50%);
+}
+
+#heading {
+
+  opacity: 1;
+  margin-top: 200px;
+  color: white;
+  font-weight: 100px;
+}
+#skill, #work, #contactme{
+    opacity: 1;
+    margin-top: 100px;
+    color: white;
+    font-weight: 100px;
+}
+
+
+
+#headbkd {
+  background-color: #000000;
+}
+#desc {
+  margin-top:0px
+}
+
+#desc2 {
+  margin-top: 80px;
+}
+
+.modal-content {
+  background-color: rgb(0, 0, 0, 0.5);
+  max-width: 635px;
+}
+
+
+
+.navt {
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../img/l2.jpg");
+    min-height: 400px;
+    filter: brightness(50%);
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("../img/contact.jpg");
+    min-height: 400px;
+    filter: brightness(50%);
+}
+.bgimg-4 {
+    background-image: url('../img/workd.jpg');
+    min-height: 400px;
+    filter: brightness(50%);
+}
+.nav-item {
+  color: #777;
+}
+
+.footicons {
+  cursor: pointer;
+}
+body{
+  min-width:100vh!important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}

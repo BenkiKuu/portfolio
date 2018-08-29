@@ -1,0 +1,89 @@
+
+{% load bootstrap4 %}
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>LEO IGANE</title>
+
+  <!-- Styles -->
+  {% block styles %}
+    {% bootstrap_css %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  {% endblock styles %}
+</head>
+
+<body class="container-fluid">
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000;">
+      <div class="container">
+        <a class="navbar-brand mr-4" href="/" id="s">LEO IGANE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="navbar-nav mr-auto">
+          </div>
+
+          <!-- Navbar Right Side -->
+          <div class="navbar-nav">
+
+            <a href="#home" class="nav-item btn">HOME</a>
+            <a href="#about" class="nav-item btn btn-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#skillset" class="nav-item btn btn-hide-small"><i class="fa fa-laptop"></i> SKILL SET</a>
+            <a href="#workd" class="nav-item btn btn-hide-small"><i class="fa fa-cogs"></i> WORK DONE</a>
+            <a href="#contacts" class="nav-item btn btn-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+
+
+
+
+            <!-- <form class="form-inline my-2 my-lg-0" action="/">
+              <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search my Github Projects" aria-label="Search">
+              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+
+
+          </div>
+        </div>
+      <!-- </div> -->
+    </nav>
+  </header>
+  <!-- nav End -->
+
+
+
+
+
+{% block content %}
+
+{% endblock %}
+
+
+{% block scripts %}
+   <!-- AJAX -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <!-- <script src="jquery-1.4.2.min.js" type="text/javascript"></script> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <!-- <script src="/js/tagcanvas.js" type="text/javascript"></script> -->
+   <script src="{% static 'js/tagcanvas.js' %}"></script>
+{% bootstrap_javascript %}
+   <script src="{% static 'js/scripts.js' %}"></script>
+
+{% endblock scripts %}
+
+
+</body>
+
+</html>

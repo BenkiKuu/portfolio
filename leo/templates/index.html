@@ -1,0 +1,326 @@
+{%extends 'base.html'%} {% load static %} {% block content %}
+
+
+
+
+<!-- Navbar (sit on top) -->
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="jumbotron bgimg-1" id="home">
+  <h1 class="text-center" id="heading"><span id="headbkd"></span></h1>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="container-fluid" id="about">
+  <h3 class="text-center">WHO IS LEO IGANE</h3>
+  <p class="text-center"><em>I LOVE TECHNOLOGY</em></p>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src={%static 'img/me.jpg'%}  id="mypic" alt="Photo of Me" width="500" height="800">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="col-md-6 text-center" id="desc">
+      <h6> The cliche’ is true for  me, I always wanted to know how things worked. I used to take things apart and try to put them back together to the horror of my parents. I love tech, I see it as a doorway to a greater Africa, programming is an equalizer, as long as I have a solution, an idea, I can build it, all I need is a keyboard, screen and a text editor. I worked at a law firm saw how hard people looked for legal documents, so I built an online legal document auto generator. When school fees was hard to come by,  I built a company. Once I could afford it I went back to school to learn how to code, I love tech.</h6>
+<h6>I am most proud of most of my applications, just to note a couple, Legal assist a legal documents auto generator and Food forum a forum for sharing global exotic food recipes. I am proud of them because as the scrum master I managed to lead my team to build amazing applications in a short timeframe with strict deadlines. I have also built, Git Search, a web application that searches Github for repositories and users using the Github API. I built Quotes, a web application that allows users to post, read, comment on and vote on peoples quotes. Snapped is another application that plays off of the Marvel Cinematic Universes Avengers Infinity Wars and tells you whether you lived or died had you been there.
+</h6><h6>I just finished Moringa School, a world class coding accelerator or boot-camp, I spent well over 1200 hours in 20 weeks learning HTML, CSS styling using the bootstrap library, JavaScript with jQuerry and the JavaScript framework Angular, I concentrated on Python as a programming language with two of its frameworks, Flask and Django. I also learnt to use Postgres as a database and SQL as the query language. I was the class representative where, in addition to the heavy workload I organised the class for class activities like morning standups, where I learnt how to simplify complex concepts, I also had to create a collaborative class where the strong students helped the weak ones. Being energetic myself our class was a positive high energy one which was instrumental as the programm got very intense at times.
+</h6>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-2 jumbotron" id="skillset">
+  <h1 class="text-center" id="skill">My Programing| Skill set</h1>
+</div>
+
+
+<div id="services" class="container-fluid text-center">
+  <h3>MY SKILL SET</h3>
+  <p class="text-center"><em>Below are the skills I have aquired<br>Over my professional career</em></p><br>
+
+  <!-- <div id="myCanvasContainer">
+   <canvas width="300" height="300" id="myCanvas">
+    <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    <ul>
+     <li><a href="http://www.google.com" target="_blank">Google</a></li>
+     <li><a href="/fish">Fish</a></li>
+     <li><a href="/chips">Chips</a></li>
+     <li><a href="/salt">Salt</a></li>
+     <li><a href="/vinegar">Vinegar</a></li>
+    </ul>
+   </canvas>
+  </div> -->
+
+  <div class="row ">
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>HTML</h4>
+      <p>    Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages
+</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>CSS</h4>
+      <p>    CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>PYTHON</h4>
+      <p>    Python is a general purpose Programing language
+</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row ">
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>FLASK</h4>
+      <p>    Flask is a web framework. This means flask provides you with tools, libraries and technologies that allow you to build a web application
+</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-git-square fa-5x"></span>
+      <h4>GIT</h4>
+      <p>    Git is a distributed version control system
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>DJANGO</h4>
+      <p>    Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
+</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>ANGULAR</h4>
+      <p>        Angular is a platform that makes it easy to build applications with the web
+
+</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>JAVASCRIPT</h4>
+      <p>        Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers
+
+</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="fa fa-laptop fa-5x"></span>
+      <h4>jQUERY</h4>
+      <p>        jQuery is a fast, small, and feature-rich JavaScript library
+
+</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+
+<!-- Container (Portfolio Section) -->
+<div class="bgimg-4 jumbotron" id="workd">
+  <h1 class="text-center" id="work">My Work| Finished Projects</h1>
+</div>
+<!-- <div class="container-fluid" id="portfolio"> -->
+<h3 class="text-center">MY WORK</h3>
+<p class="text-center"><em>Here are some of my latest work<br> Click on the images to make them bigger</em></p><br>
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+<div class="row" id="wh">
+  <div class="col-md-3">
+    <a href="#workd" data-toggle="tooltip" title="Insta Clone"><img src="{%static 'img/insta.jpeg'%}" style="width:100%" onclick="onClick(this)"  alt="Insta Clone" data-toggle="modal" data-target="#myModal4"></a>
+  </div>
+
+  <div class="col-md-3">
+    <a href="#workd" data-toggle="tooltip" title="The Law Review"><img src="{%static 'img/law.jpeg'%}" style="width:100%" onclick="onClick(this)"  alt="The Food Forum" data-toggle="modal" data-target="#myModal3"></a>
+  </div>
+
+  <div class="col-md-3">
+    <a href="#workd" data-toggle="tooltip" title="My Pics"><img src="{%static 'img/pic.jpeg'%}" style="width:100%" onclick="onClick(this)"  alt="Pictoral" height="160" data-toggle="modal" data-target="#myModal2"></a>
+  </div>
+
+  <div class="col-md-3">
+    <a href="#workd" data-toggle="tooltip" title="Neighbour Hood Watch"><img src="{%static 'img/neighbour.jpeg'%}" style="width:100%" onclick="onClick(this)" alt="Neighbour Hood Watch" height="160" data-toggle="modal" data-target="#myModal"></a>
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Neighbour Hood Watch</h4>
+      </div>
+      <div class="modal-body">
+      <img src="{%static 'img/neighbour.jpeg'%}">
+      </div>
+      <div class="modal-footer">
+        <p>A Neighbourhood security web application</p>
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">My Pics</h4>
+      </div>
+      <div class="modal-body">
+      <img src="{%static 'img/pic.jpeg'%}">
+      </div>
+      <div class="modal-footer">
+        <p>A Pictoral portfolio web application</p>
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">The Law Review</h4>
+      </div>
+      <div class="modal-body">
+      <img src="{%static 'img/law.jpeg'%}">
+      </div>
+      <div class="modal-footer">
+        <p>A web application that allows one to geberate legal documents</p>
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal4" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Insta Clone</h4>
+      </div>
+      <div class="modal-body">
+      <img src="{%static 'img/insta.jpeg'%}">
+      </div>
+      <div class="modal-footer">
+        <p>A clone of the instagram clone</p>
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 jumbotron" id="contacts">
+  <h1 class="text-center" id="contactme">My Contact| Contact me</h1>
+</div>
+<!-- Container (Contact Section) -->
+
+<div class="row" id="informa">
+  <div class="col-md-6 text-center">
+      <img src={%static 'img/me2.jpg'%}  id="mypic" alt="Photo of Me" width="500" height="500">
+  </div>
+  <div class="col-md-6 text-center" id="desc2">
+    <h3 class="text-center">MY CONTACT</h3>
+    <p class="text-center"><em>I'd love to hear from you!</em></p>
+
+
+
+
+    <div class="container" id="informa2">
+      <i class="fa fa-map-marker fa-fw"></i>
+      <h2>Nairobi, Kenya</h2><br>
+      <i class="fa fa-phone fa-fw"></i>
+      <h2> Phone: +254 721727675</h2><br>
+      <i class="fa fa-envelope fa-fw"></i>
+      <h2>Email: iganeleo@mail.com</h2><br>
+    </div>
+
+
+
+
+    <!-- Hide this text on small devices -->
+
+
+
+  </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="page-footer font-small blue pt-4" style="background-color: #000000;">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3 text-center">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Gratitude</h5>
+        <p>For more information kindly contact me<br>Also you can reach me and if so wish, follow me on my social media pages</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3 text-center">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Pages</h5>
+
+        <i class="fa fa-facebook-official footicons fa-fw fa-2x"></i>
+        <i href="#" class="fa fa-instagram fa-fw fa-2x"></i>
+        <i href="#" class="fa fa-snapchat fa-fw fa-2x"></i>
+        <i href="#" class="fa fa-pinterest-p fa-fw fa-2x"></i>
+        <i href="#" class="fa fa-twitter fa-fw fa-2x"></i>
+        <i href="#" class="fa fa-linkedin fa-fw fa-2x"></i>
+
+      </div>
+      <!-- Grid column -->
+
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <p>LEO IGANE</p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+ {% endblock %}
+<!-- Add Google Maps -->
